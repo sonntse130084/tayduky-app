@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "267343308818",
+    "firebase_url": "https://prmtayduky.firebaseio.com",
+    "project_id": "prmtayduky",
+    "storage_bucket": "prmtayduky.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267343308818:android:173aa8130f7ef7f62050cb",
+        "android_client_info": {
+          "package_name": "com.example.taydukiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267343308818-fvi3put78gfvtco8rd7ofntqkj3hmb8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.taydukiapp",
+            "certificate_hash": "a06282ecb253378bbaec8b65d259631498578d3d"
+          }
+        },
+        {
+          "client_id": "267343308818-vtcp4k5ehht747o07abv7pedmneskmtr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoYzTI9LMWpfFA_roNoXSbE_oepEcOpTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267343308818-vtcp4k5ehht747o07abv7pedmneskmtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

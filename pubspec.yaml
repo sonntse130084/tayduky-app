@@ -1,0 +1,125 @@
+name: taydukiapp
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_pro: ^1.0.0
+  flutter_spinkit: "^4.1.2"
+  google_fonts: ^1.1.0
+  flutter_datetime_picker: ^1.3.8
+  intl: ^0.16.1
+  image_picker: ^0.6.7+3
+  fluttertoast: ^4.0.1
+  firebase_core: ^0.4.5
+  cloud_firestore: ^0.13.7
+  firebase_storage: ^3.1.6
+  firebase_messaging: ^6.0.16
+  shared_preferences: ^0.5.7+3
+  http: ^0.12.1
+  scoped_model: ^1.0.1
+  flutter_slidable: "^0.5.4"
+  progress_dialog: ^1.2.4
+  file_picker: ^1.12.0
+  flutter_downloader: ^1.4.4
+  path_provider: ^1.6.11
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/satang.png
+    - assets/ngokhong2.png
+    - assets/gaynhuy.png
+    - assets/dolongdao.png
+    - assets/caydao.png
+    - assets/duongtang.png
+    - assets/ngokhong.png
+    - assets/4thaytro.png
+    - assets/batgioi.png
+    - assets/taydukybackground.jpg
+    - assets/c1.jpg
+    - assets/m1.jpeg
+    - assets/m2.jpg
+    - assets/w1.jpeg
+    - assets/w3.jpeg
+    - assets/w4.jpeg
+    - assets/cats/tshirt.png
+    - assets/cats/dress.png
+    - assets/cats/formal.png
+    - assets/cats/informal.png
+    - assets/cats/jeans.png
+    - assets/cats/accessories.png
+    - assets/products/blazer1.jpeg
+    - assets/products/blazer2.jpeg
+    - assets/products/dress1.jpeg
+    - assets/products/dress2.jpeg
+    - assets/products/hills1.jpeg
+    - assets/products/hills2.jpeg
+    - assets/products/pants1.jpg
+    - assets/products/pants2.jpeg
+    - assets/products/shoe1.jpg
+    - assets/products/skt1.jpeg
+    - assets/products/skt2.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-assets/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-assets/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
